@@ -1,0 +1,87 @@
+from turtle import *
+import random
+turtle = Turtle()
+turtle.penup()
+turtle.goto(-190,190)
+turtle.speed(7)
+for step in range(20):
+	turtle.write(step)# your own code
+	turtle.right(90)
+	turtle.forward(10)
+	turtle.pendown()
+	turtle.forward(150)
+	turtle.penup()
+	turtle.backward(160)
+	turtle.left(90)
+	turtle.forward(20)
+Turtle_a = Turtle()
+Turtle_a.color("red")
+Turtle_a.shape("turtle")
+Turtle_a.penup()
+Turtle_a.goto(-190,170)
+Turtle_a.pendown()
+Turtle_b = Turtle()
+Turtle_b.color("orange")
+Turtle_b.shape("turtle")
+Turtle_b.penup()
+Turtle_b.goto(-190,140)
+Turtle_b.pendown()
+Turtle_c = Turtle()
+Turtle_c.color("yellow")
+Turtle_c.shape("turtle")
+Turtle_c.penup()
+Turtle_c.goto(-190,110)
+Turtle_c.pendown()
+Turtle_d = Turtle()
+Turtle_d.color("green")
+Turtle_d.shape("turtle")
+Turtle_d.penup()
+Turtle_d.goto(-190,80)
+Turtle_d.pendown()
+Turtle_e = Turtle()
+Turtle_e.color("blue")
+Turtle_e.shape("turtle")
+Turtle_e.penup()
+Turtle_e.goto(-190,50)
+Turtle_e.pendown()
+addk_a = 0
+addk_b = 0
+addk_c = 0
+addk_d = 0
+addk_e = 0
+for turn in range(150):
+	Turtle_a_drn = random.randint(1,40)
+	Turtle_b_drn = random.randint(1,40)
+	Turtle_c_drn = random.randint(1,40)
+	Turtle_d_drn = random.randint(1,40)
+	Turtle_e_drn = random.randint(1,40)
+	Turtle_a.forward(Turtle_a_drn)
+	Turtle_b.forward(Turtle_b_drn)
+	Turtle_c.forward(Turtle_c_drn)
+	Turtle_d.forward(Turtle_d_drn)
+	Turtle_e.forward(Turtle_e_drn)
+	addk_a += Turtle_a_drn
+	addk_b += Turtle_b_drn
+	addk_c += Turtle_c_drn
+	addk_d += Turtle_d_drn
+	addk_e += Turtle_e_drn
+	print("Turtle a " + str(addk_a))# your own code
+	print("Turtle b " + str(addk_b))# your own code
+	print("Turtle c " + str(addk_c))# your own code
+	print("Turtle d" + str(addk_d))# your own code
+	print("Turtle e" + str(addk_e))# your own code
+	if addk_a >= 450:
+		Turtle_a.goto(0,10)
+		break   # your own code
+	elif addk_b >= 450:
+		Turtle_b.goto(0,10)
+		break   # your own code
+	elif addk_c >= 450:
+		Turtle_c.goto(0,10)
+		break   # your own code
+	elif addk_d >= 450:
+		Turtle_d.goto(0,10)
+		break   # your own code
+	elif addk_e >= 450:
+		Turtle_e.goto(0,10)
+		break   # your own code
