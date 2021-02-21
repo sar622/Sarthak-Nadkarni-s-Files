@@ -1,0 +1,15 @@
+print ("Start")
+print ("step 1:pour water in the kettle")
+print ("step 2:boil water")
+print ("step 3:add instant coffee to boiling water")
+sugar=input ("do you want sugar, say yes or no")
+if sugar=="yes":
+  print ("pour 5 teaspoons of sugar")
+milk=input ("do you want milk, say yes or no")
+if milk=="yes":
+  print ("pour milk")
+cocoa_powder=input ("do you want cocoa powder, say yes or no")
+if cocoa_powder=="yes":
+  print ("add cocoa powder")
+print ("step 4:keep stirring until coffee is ready")
+print ("Finish")
