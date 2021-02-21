@@ -1,0 +1,37 @@
+from turtle import *
+turtle = Turtle()
+screen = Screen()
+screen.setup(620,620)# your own code
+screen.bgcolor("white")
+colour = ["red","orange","yellow","green"]
+turtle.pensize(4)# your own code
+turtle.shape("turtle")
+turtle.penup()
+turtle.pencolor(255,0,0)
+i = 0
+for i in range(12):
+	i += 1
+	print(i)
+	turtle.penup()
+	turtle.setheading(-30*i+630)# your own code
+	turtle.backward(200)
+	turtle.pendown()
+	turtle.forward(25)
+	turtle.penup()
+	turtle.forward(20)
+	turtle.write(str(i), align="center",font=("Arial",12,"normal"))# your own code
+	if i==12:
+		i = 0
+	turtle.home()# your own code
+turtle.setpos(0,-250)# your own code
+turtle.pendown()
+turtle.pensize(10)# your own code
+turtle.pencolor("black")
+turtle.circle(250)
+turtle.penup()
+turtle.setpos(150,-270)# your own code
+turtle.pendown()
+turtle.pencolor("blue")
+turtle.write("Sarthak Nadkarni", align="center", font=("Arial",12,"normal"))# your own code
+turtle.ht()  # your own code
+turtle.speed(10)# your own code
