@@ -1,0 +1,25 @@
+from turtle import *
+turtle = Turtle()
+screen = Screen()
+screen.setup(620,620)# your own code
+screen.bgcolor("white")
+colour = ["red","orange","yellow","green"]
+turtle.pensize(4)# your own code
+turtle.shape("turtle")
+turtle.penup()
+turtle.home()# your own code
+turtle.setpos(0,-250)# your own code
+turtle.pendown()
+turtle.pensize(10)# your own code
+turtle.pencolor("black")
+turtle.goto(250,-250)
+turtle.goto(250,0)
+turtle.goto(0,0)
+turtle.goto(0,-250)
+turtle.penup()
+turtle.setpos(125,-300) # your own code
+turtle.pendown()
+turtle.pencolor("blue")
+turtle.write("Sarthak Nadkarni", align="center", font=("Arial",12,"normal"))# your own code
+turtle.ht()  # your own code
+turtle.speed(10)# your own code
