@@ -1,0 +1,13 @@
+print ("Start")
+print ("step 1: put 6 mangos in the blender")
+print ("step 2: put 4 cups of milk in blender")
+sugar = input ("do you want sugar, say yes or no")
+if sugar=="yes":
+  print ("pour 36 g of sugar")
+else:
+  print ("keep blending for 30 seconds")
+print ("step 3: Pour mango juice into cups")
+ice = input ("do you want ice, say yes or no")
+if ice=="yes":
+  print ("pour 70 g of ice")
+print ("Finish")
