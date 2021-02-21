@@ -1,0 +1,932 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="+f%^Ofq}2*i{w[/cD9s3">turtle</variable>
+    <variable type="" id="VXoIlV6bc@pC$/@l6W@v">Turtle_a</variable>
+    <variable type="" id="9%sO@Vs1kDqVUQ{n+pEc">i</variable>
+    <variable type="" id="c7EbP}b8?{VEiHG:zI/v">Turtle_a_drn</variable>
+    <variable type="" id="rhy[LPt-HA:z`{_[xhZ)">j</variable>
+    <variable type="" id="~R.dm3@=gB-$Uq|Ms]!-">var</variable>
+    <variable type="" id="^]=RrN8%{l)v[.P^U|O0">screen</variable>
+    <variable type="" id="yE+nksZkT^6$H!WP@{p3">Turtle_b</variable>
+    <variable type="" id="ov/LQmXA1/wL~:z0td5(">Turtle_c</variable>
+    <variable type="" id="caS~Wxj5P?i%e!mg9sx0">Turtle_d</variable>
+    <variable type="" id="liZNz83zCC`22YP!dB~t">Turtle_e</variable>
+    <variable type="" id=";41S7h?iJKR4a^[H80m.">k</variable>
+    <variable type="" id="F.Tp;N=`vl+6QE0R^Xn7">m</variable>
+    <variable type="" id="fk-Hd5-=uZ24L#p1;g^Y">n</variable>
+    <variable type="" id="T^vqtydN=enSjyMQ;Bat">o</variable>
+    <variable type="" id="OjHR)%aGf;F[^cPCXn#P">Turtle_b_drn</variable>
+    <variable type="" id="5DCz5XPBUwA%Q$hcB!Cs">Turtle_c_drn</variable>
+    <variable type="" id="(@xAC.,d_Z5{p!Ce!`5S">Turtle_d_drn</variable>
+    <variable type="" id="hh%:vqtczb:`R5N!X^sJ">Turtle_e_drn</variable>
+    <variable type="" id="WfUdILp~U-wAk;]!@r+H">addk_a</variable>
+    <variable type="" id="IE}]dV5m6L.]A0#OX^?J">addk_b</variable>
+    <variable type="" id="A3u_d/=b^zUXPJY?0a)+">addk_c</variable>
+    <variable type="" id="L]j4?sfFG9tK;oeW`|g%">addk_d</variable>
+    <variable type="" id="Zgto/=@*V1`*jis`m#r?">addk_e</variable>
+    <variable type="" id="`ce/rVC?TQ@X(2@n5v5:">p</variable>
+    <variable type="" id="mc7y){]bcp+e`0eF|)BH">q</variable>
+  </variables>
+  <block type="import_turtle" id="vsRic}arpr8BIV~!X(tz" x="459" y="142">
+    <next>
+      <block type="random" id="`r?#{M7Gy3#tQ7@mfT4x">
+        <next>
+          <block type="turtle" id="i%=yGP(=%gVKH^-VI1:/">
+            <field name="turtle" id="+f%^Ofq}2*i{w[/cD9s3" variabletype="">turtle</field>
+            <next>
+              <block type="penud" id="Z3U,5c/?|lTggGCEyt?D">
+                <field name="turtle" id="+f%^Ofq}2*i{w[/cD9s3" variabletype="">turtle</field>
+                <field name="options">up</field>
+                <next>
+                  <block type="goto" id="Mza^[[2a.;tcV_C$bL;q">
+                    <field name="turtle" id="+f%^Ofq}2*i{w[/cD9s3" variabletype="">turtle</field>
+                    <value name="text">
+                      <shadow type="textinline" id="c-yj!KBSY.6/}mk$S8Rj">
+                        <field name="text">-190,190</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="turtlespeed" id="@B-135UM18**~C(Bei:f">
+                        <field name="turtle" id="+f%^Ofq}2*i{w[/cD9s3" variabletype="">turtle</field>
+                        <value name="text">
+                          <shadow type="textinline" id="d97PZ|2iIMS|1O9K]W:c">
+                            <field name="text">7</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="webfor" id="*/tJVLEdQw0G~H6!s@mr">
+                            <value name="letter">
+                              <shadow type="textinline" id=",R*}NUVR?|CyOPKO80Zb">
+                                <field name="text">step</field>
+                              </shadow>
+                            </value>
+                            <value name="no">
+                              <shadow type="textinline" id=".*gjJjs+U|l;3QnLk/{)">
+                                <field name="text">20</field>
+                              </shadow>
+                            </value>
+                            <statement name="DO">
+                              <block type="webtypeanything" id=".yXDQM7gPtou]UKWUc;~">
+                                <value name="stuff">
+                                  <shadow type="textinline" id="1kkc@c;`$}:M[q;H`30`">
+                                    <field name="text">turtle.write(step)</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="directions" id="dM%)4nB79FUDd;bh0iAs">
+                                    <field name="turtle" id="+f%^Ofq}2*i{w[/cD9s3" variabletype="">turtle</field>
+                                    <field name="options">right</field>
+                                    <value name="text">
+                                      <shadow type="textinline" id="Hh(Ghfpo/?A6H~nx9PD8">
+                                        <field name="text">90</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="directions" id="a0|f-P@^B.3/%N:p+QXU">
+                                        <field name="turtle" id="+f%^Ofq}2*i{w[/cD9s3" variabletype="">turtle</field>
+                                        <field name="options">forward</field>
+                                        <value name="text">
+                                          <shadow type="textinline" id="c+m$~R/JC`p]Q,_]fU]@">
+                                            <field name="text">10</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="penud" id="K-U/;n-Uv=EIT~e0A01S">
+                                            <field name="turtle" id="+f%^Ofq}2*i{w[/cD9s3" variabletype="">turtle</field>
+                                            <field name="options">down</field>
+                                            <next>
+                                              <block type="directions" id="VmvXR0M5VN.Z6L}KGX%#">
+                                                <field name="turtle" id="+f%^Ofq}2*i{w[/cD9s3" variabletype="">turtle</field>
+                                                <field name="options">forward</field>
+                                                <value name="text">
+                                                  <shadow type="textinline" id="kwt*:ut8:B]|3BXA?4oe">
+                                                    <field name="text">150</field>
+                                                  </shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="penud" id="|ZIk$I0GtAwIo=.FK*#~">
+                                                    <field name="turtle" id="+f%^Ofq}2*i{w[/cD9s3" variabletype="">turtle</field>
+                                                    <field name="options">up</field>
+                                                    <next>
+                                                      <block type="directions" id="G1I$ZeNGWs.D3QIDI+4K">
+                                                        <field name="turtle" id="+f%^Ofq}2*i{w[/cD9s3" variabletype="">turtle</field>
+                                                        <field name="options">backward</field>
+                                                        <value name="text">
+                                                          <shadow type="textinline" id="pNhPAl*#Q[zssr=fdiTU">
+                                                            <field name="text">160</field>
+                                                          </shadow>
+                                                        </value>
+                                                        <next>
+                                                          <block type="directions" id="`#W7;tt./[fB*g]!-LJ{">
+                                                            <field name="turtle" id="+f%^Ofq}2*i{w[/cD9s3" variabletype="">turtle</field>
+                                                            <field name="options">left</field>
+                                                            <value name="text">
+                                                              <shadow type="textinline" id="h/N-]*0P%og{ewiCX1Hr">
+                                                                <field name="text">90</field>
+                                                              </shadow>
+                                                            </value>
+                                                            <next>
+                                                              <block type="directions" id="IRumYbbM+~L.{zpw{Ql^">
+                                                                <field name="turtle" id="+f%^Ofq}2*i{w[/cD9s3" variabletype="">turtle</field>
+                                                                <field name="options">forward</field>
+                                                                <value name="text">
+                                                                  <shadow type="textinline" id="`qY`.uu:)ytyEeJRSNB8">
+                                                                    <field name="text">20</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <next>
+                              <block type="turtle" id="J|v:0Pp9vQg3wOr]z@_C">
+                                <field name="turtle" id="VXoIlV6bc@pC$/@l6W@v" variabletype="">Turtle_a</field>
+                                <next>
+                                  <block type="colour" id="HxHS,oCLjx`C%G);]J+v">
+                                    <field name="turtle" id="VXoIlV6bc@pC$/@l6W@v" variabletype="">Turtle_a</field>
+                                    <value name="text">
+                                      <shadow type="textinline" id="Msi!:I.s!+i/22B5d:$^">
+                                        <field name="text">"red"</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="turtleshape" id="+GpBI6+}y*2`%n%aA)e^">
+                                        <field name="turtle" id="VXoIlV6bc@pC$/@l6W@v" variabletype="">Turtle_a</field>
+                                        <value name="text">
+                                          <shadow type="stringinline" id="qsZ$v/7~As,)GlSxJ%4(">
+                                            <field name="text">turtle</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="penud" id="5YV-L5zbnMs_b6NA#5EQ">
+                                            <field name="turtle" id="VXoIlV6bc@pC$/@l6W@v" variabletype="">Turtle_a</field>
+                                            <field name="options">up</field>
+                                            <next>
+                                              <block type="goto" id="{^n7pz[GkV/$GKUPvb5A">
+                                                <field name="turtle" id="VXoIlV6bc@pC$/@l6W@v" variabletype="">Turtle_a</field>
+                                                <value name="text">
+                                                  <shadow type="textinline" id="t)vt%g[Xq?aFyy%i66:*">
+                                                    <field name="text">-190,170</field>
+                                                  </shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="penud" id="**Oj2VJnD/j-k6c24%*m">
+                                                    <field name="turtle" id="VXoIlV6bc@pC$/@l6W@v" variabletype="">Turtle_a</field>
+                                                    <field name="options">down</field>
+                                                    <next>
+                                                      <block type="turtle" id="ZLbv;[-h(;OMcl]NE2a.">
+                                                        <field name="turtle" id="yE+nksZkT^6$H!WP@{p3" variabletype="">Turtle_b</field>
+                                                        <next>
+                                                          <block type="colour" id="+]e]J?+MvYmzh~X7M/#S">
+                                                            <field name="turtle" id="yE+nksZkT^6$H!WP@{p3" variabletype="">Turtle_b</field>
+                                                            <value name="text">
+                                                              <shadow type="textinline" id="|U8D^UP!P}_|ov6eY(n$">
+                                                                <field name="text">"yellow"</field>
+                                                              </shadow>
+                                                            </value>
+                                                            <next>
+                                                              <block type="turtleshape" id="AV%sHHrPMh9SFnOR|@sg">
+                                                                <field name="turtle" id="yE+nksZkT^6$H!WP@{p3" variabletype="">Turtle_b</field>
+                                                                <value name="text">
+                                                                  <shadow type="stringinline" id="Zk7I;*EM0e[Z#QQ*Ip@)">
+                                                                    <field name="text">turtle</field>
+                                                                  </shadow>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="penud" id="P3UmsufT)lMTc/S{He(W">
+                                                                    <field name="turtle" id="yE+nksZkT^6$H!WP@{p3" variabletype="">Turtle_b</field>
+                                                                    <field name="options">up</field>
+                                                                    <next>
+                                                                      <block type="goto" id="W+P1cVBa#P_w_/8LT.Pt">
+                                                                        <field name="turtle" id="yE+nksZkT^6$H!WP@{p3" variabletype="">Turtle_b</field>
+                                                                        <value name="text">
+                                                                          <shadow type="textinline" id="sdE=obPaKJ$kxO!4?nG}">
+                                                                            <field name="text">-190,140</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="penud" id="35}(GwP@iatrrEz+8NR:">
+                                                                            <field name="turtle" id="yE+nksZkT^6$H!WP@{p3" variabletype="">Turtle_b</field>
+                                                                            <field name="options">down</field>
+                                                                            <next>
+                                                                              <block type="turtle" id="OV%2we2cT%]bQsQ@;mL/">
+                                                                                <field name="turtle" id="ov/LQmXA1/wL~:z0td5(" variabletype="">Turtle_c</field>
+                                                                                <next>
+                                                                                  <block type="colour" id="TbfEs#V(AQoN)`+!Hd@@">
+                                                                                    <field name="turtle" id="ov/LQmXA1/wL~:z0td5(" variabletype="">Turtle_c</field>
+                                                                                    <value name="text">
+                                                                                      <shadow type="textinline" id="bMmKa^C0[`a,LZ6q?Bce">
+                                                                                        <field name="text">"blue"</field>
+                                                                                      </shadow>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="turtleshape" id="exdfnWL3oCU3H{.gBd1w">
+                                                                                        <field name="turtle" id="ov/LQmXA1/wL~:z0td5(" variabletype="">Turtle_c</field>
+                                                                                        <value name="text">
+                                                                                          <shadow type="stringinline" id="hJ:fFmLqZd6;@LA).v#W">
+                                                                                            <field name="text">turtle</field>
+                                                                                          </shadow>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                          <block type="penud" id="s~uaNDTH2954OgX7ni69">
+                                                                                            <field name="turtle" id="ov/LQmXA1/wL~:z0td5(" variabletype="">Turtle_c</field>
+                                                                                            <field name="options">up</field>
+                                                                                            <next>
+                                                                                              <block type="goto" id="m,|iXyCVEq_3Vre$(MHt">
+                                                                                                <field name="turtle" id="ov/LQmXA1/wL~:z0td5(" variabletype="">Turtle_c</field>
+                                                                                                <value name="text">
+                                                                                                  <shadow type="textinline" id="R],K92r3}QoYCXQPBauk">
+                                                                                                    <field name="text">-190,110</field>
+                                                                                                  </shadow>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="penud" id="#g|R?_:{4,W|d-E+N;ch">
+                                                                                                    <field name="turtle" id="ov/LQmXA1/wL~:z0td5(" variabletype="">Turtle_c</field>
+                                                                                                    <field name="options">down</field>
+                                                                                                    <next>
+                                                                                                      <block type="turtle" id=")mvFI)4i?=Ll;,Xg`ZuD">
+                                                                                                        <field name="turtle" id="caS~Wxj5P?i%e!mg9sx0" variabletype="">Turtle_d</field>
+                                                                                                        <next>
+                                                                                                          <block type="colour" id="jAfEwClf.eBZF`75#%u]">
+                                                                                                            <field name="turtle" id="caS~Wxj5P?i%e!mg9sx0" variabletype="">Turtle_d</field>
+                                                                                                            <value name="text">
+                                                                                                              <shadow type="textinline" id="|@_0_U?@}0vMVVOH1c=x">
+                                                                                                                <field name="text">"pink"</field>
+                                                                                                              </shadow>
+                                                                                                            </value>
+                                                                                                            <next>
+                                                                                                              <block type="turtleshape" id="gkOHuE-o6MuOg^,Ht%J9">
+                                                                                                                <field name="turtle" id="caS~Wxj5P?i%e!mg9sx0" variabletype="">Turtle_d</field>
+                                                                                                                <value name="text">
+                                                                                                                  <shadow type="stringinline" id="X7S+@bV`YytScgL/LE8?">
+                                                                                                                    <field name="text">turtle</field>
+                                                                                                                  </shadow>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="penud" id="af-B!y7X$Beghge-DfPi">
+                                                                                                                    <field name="turtle" id="caS~Wxj5P?i%e!mg9sx0" variabletype="">Turtle_d</field>
+                                                                                                                    <field name="options">up</field>
+                                                                                                                    <next>
+                                                                                                                      <block type="goto" id="$~;W+!4DLiJdM#OFMxN.">
+                                                                                                                        <field name="turtle" id="caS~Wxj5P?i%e!mg9sx0" variabletype="">Turtle_d</field>
+                                                                                                                        <value name="text">
+                                                                                                                          <shadow type="textinline" id="my9_]5h(iHBVoS^AX^y$">
+                                                                                                                            <field name="text">-190,80</field>
+                                                                                                                          </shadow>
+                                                                                                                        </value>
+                                                                                                                        <next>
+                                                                                                                          <block type="penud" id="X5`Ix`O2ei`%5zvA@}@-">
+                                                                                                                            <field name="turtle" id="caS~Wxj5P?i%e!mg9sx0" variabletype="">Turtle_d</field>
+                                                                                                                            <field name="options">down</field>
+                                                                                                                            <next>
+                                                                                                                              <block type="turtle" id="z2Xb,w~D0_A(EAQ2Dtls">
+                                                                                                                                <field name="turtle" id="liZNz83zCC`22YP!dB~t" variabletype="">Turtle_e</field>
+                                                                                                                                <next>
+                                                                                                                                  <block type="colour" id="J{0)]VhiMbQ|vU%-7($q">
+                                                                                                                                    <field name="turtle" id="liZNz83zCC`22YP!dB~t" variabletype="">Turtle_e</field>
+                                                                                                                                    <value name="text">
+                                                                                                                                      <shadow type="textinline" id="G:F([8}?4=wI{eZk40|k">
+                                                                                                                                        <field name="text">"orange"</field>
+                                                                                                                                      </shadow>
+                                                                                                                                    </value>
+                                                                                                                                    <next>
+                                                                                                                                      <block type="turtleshape" id="kW$9`~~/y;[^_-no*Ap$">
+                                                                                                                                        <field name="turtle" id="liZNz83zCC`22YP!dB~t" variabletype="">Turtle_e</field>
+                                                                                                                                        <value name="text">
+                                                                                                                                          <shadow type="stringinline" id="PM49R$;g6w?o#0XX[Dhw">
+                                                                                                                                            <field name="text">turtle</field>
+                                                                                                                                          </shadow>
+                                                                                                                                        </value>
+                                                                                                                                        <next>
+                                                                                                                                          <block type="penud" id="6*wp({tTN$$)UL*(tIJk">
+                                                                                                                                            <field name="turtle" id="liZNz83zCC`22YP!dB~t" variabletype="">Turtle_e</field>
+                                                                                                                                            <field name="options">up</field>
+                                                                                                                                            <next>
+                                                                                                                                              <block type="goto" id="R#~h#c1y0x;JTS7BYS[|">
+                                                                                                                                                <field name="turtle" id="liZNz83zCC`22YP!dB~t" variabletype="">Turtle_e</field>
+                                                                                                                                                <value name="text">
+                                                                                                                                                  <shadow type="textinline" id="KlmaAb#V*Ku^Jq91y}y|">
+                                                                                                                                                    <field name="text">-190,50</field>
+                                                                                                                                                  </shadow>
+                                                                                                                                                </value>
+                                                                                                                                                <next>
+                                                                                                                                                  <block type="penud" id="_VPFUlVh]T@.Ii(gOU`y">
+                                                                                                                                                    <field name="turtle" id="liZNz83zCC`22YP!dB~t" variabletype="">Turtle_e</field>
+                                                                                                                                                    <field name="options">down</field>
+                                                                                                                                                    <next>
+                                                                                                                                                      <block type="variables_set" id="zWCI1HIxrJc9;R{0rO(=">
+                                                                                                                                                        <field name="VAR" id="WfUdILp~U-wAk;]!@r+H" variabletype="">addk_a</field>
+                                                                                                                                                        <field name="NAME">=</field>
+                                                                                                                                                        <value name="varset">
+                                                                                                                                                          <shadow type="textinline" id="MguZOqmXsYp):d+Xp=k[">
+                                                                                                                                                            <field name="text">0</field>
+                                                                                                                                                          </shadow>
+                                                                                                                                                        </value>
+                                                                                                                                                        <next>
+                                                                                                                                                          <block type="variables_set" id="gHBT=L*u7@Dt=tDmvh5O">
+                                                                                                                                                            <field name="VAR" id="IE}]dV5m6L.]A0#OX^?J" variabletype="">addk_b</field>
+                                                                                                                                                            <field name="NAME">=</field>
+                                                                                                                                                            <value name="varset">
+                                                                                                                                                              <shadow type="textinline" id="dNu19C)DQ:KflM8?W~A9">
+                                                                                                                                                                <field name="text">0</field>
+                                                                                                                                                              </shadow>
+                                                                                                                                                            </value>
+                                                                                                                                                            <next>
+                                                                                                                                                              <block type="variables_set" id="+HG{2pAK6t~.yfP/}o)N">
+                                                                                                                                                                <field name="VAR" id="A3u_d/=b^zUXPJY?0a)+" variabletype="">addk_c</field>
+                                                                                                                                                                <field name="NAME">=</field>
+                                                                                                                                                                <value name="varset">
+                                                                                                                                                                  <shadow type="textinline" id="0f{EerISM2hfNN1)Q0;c">
+                                                                                                                                                                    <field name="text">0</field>
+                                                                                                                                                                  </shadow>
+                                                                                                                                                                </value>
+                                                                                                                                                                <next>
+                                                                                                                                                                  <block type="variables_set" id="r-]v?|:O84Q#M+BK(hPf">
+                                                                                                                                                                    <field name="VAR" id="L]j4?sfFG9tK;oeW`|g%" variabletype="">addk_d</field>
+                                                                                                                                                                    <field name="NAME">=</field>
+                                                                                                                                                                    <value name="varset">
+                                                                                                                                                                      <shadow type="textinline" id="C~)1Tl|VkfCMQdVdKlz4">
+                                                                                                                                                                        <field name="text">0</field>
+                                                                                                                                                                      </shadow>
+                                                                                                                                                                    </value>
+                                                                                                                                                                    <next>
+                                                                                                                                                                      <block type="variables_set" id="(8[aG0M,(@(ui`?s^6)/">
+                                                                                                                                                                        <field name="VAR" id="Zgto/=@*V1`*jis`m#r?" variabletype="">addk_e</field>
+                                                                                                                                                                        <field name="NAME">=</field>
+                                                                                                                                                                        <value name="varset">
+                                                                                                                                                                          <shadow type="textinline" id="p8TtuvgvZT8E6PRh!mQG">
+                                                                                                                                                                            <field name="text">0</field>
+                                                                                                                                                                          </shadow>
+                                                                                                                                                                        </value>
+                                                                                                                                                                        <next>
+                                                                                                                                                                          <block type="webfor" id="_A-{f)?#O@iqcm/scAUb">
+                                                                                                                                                                            <value name="letter">
+                                                                                                                                                                              <shadow type="textinline" id="ihJenz_0;r_0o-~UT^.%">
+                                                                                                                                                                                <field name="text">turn</field>
+                                                                                                                                                                              </shadow>
+                                                                                                                                                                            </value>
+                                                                                                                                                                            <value name="no">
+                                                                                                                                                                              <shadow type="textinline" id="iir]QzPfL44mEy/#5Q1E">
+                                                                                                                                                                                <field name="text">150</field>
+                                                                                                                                                                              </shadow>
+                                                                                                                                                                            </value>
+                                                                                                                                                                            <statement name="DO">
+                                                                                                                                                                              <block type="variables_set" id="5W6P!?X5[kqKuL!/wLcK">
+                                                                                                                                                                                <field name="VAR" id="c7EbP}b8?{VEiHG:zI/v" variabletype="">Turtle_a_drn</field>
+                                                                                                                                                                                <field name="NAME">=</field>
+                                                                                                                                                                                <value name="varset">
+                                                                                                                                                                                  <shadow type="textinline" id="VaBkhvbHs1ApEp*9{T.m">
+                                                                                                                                                                                    <field name="text">random.randint(1,40)</field>
+                                                                                                                                                                                  </shadow>
+                                                                                                                                                                                </value>
+                                                                                                                                                                                <next>
+                                                                                                                                                                                  <block type="variables_set" id="ZTId.|J/_ZT:/gJy59=:">
+                                                                                                                                                                                    <field name="VAR" id="OjHR)%aGf;F[^cPCXn#P" variabletype="">Turtle_b_drn</field>
+                                                                                                                                                                                    <field name="NAME">=</field>
+                                                                                                                                                                                    <value name="varset">
+                                                                                                                                                                                      <shadow type="textinline" id="(!!j=/51KRY.#qNKjwvD">
+                                                                                                                                                                                        <field name="text">random.randint(1,40)</field>
+                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                    </value>
+                                                                                                                                                                                    <next>
+                                                                                                                                                                                      <block type="variables_set" id="0~PGL8c:?Gp!U{jDfbFa">
+                                                                                                                                                                                        <field name="VAR" id="5DCz5XPBUwA%Q$hcB!Cs" variabletype="">Turtle_c_drn</field>
+                                                                                                                                                                                        <field name="NAME">=</field>
+                                                                                                                                                                                        <value name="varset">
+                                                                                                                                                                                          <shadow type="textinline" id="nC*X?z4d5{YOE=MnUtOR">
+                                                                                                                                                                                            <field name="text">random.randint(1,40)</field>
+                                                                                                                                                                                          </shadow>
+                                                                                                                                                                                        </value>
+                                                                                                                                                                                        <next>
+                                                                                                                                                                                          <block type="variables_set" id="bX`RO3rIL]/JB-3Y5wwN">
+                                                                                                                                                                                            <field name="VAR" id="(@xAC.,d_Z5{p!Ce!`5S" variabletype="">Turtle_d_drn</field>
+                                                                                                                                                                                            <field name="NAME">=</field>
+                                                                                                                                                                                            <value name="varset">
+                                                                                                                                                                                              <shadow type="textinline" id="1KU`mB)NnXFmPXB^wC}2">
+                                                                                                                                                                                                <field name="text">random.randint(1,40)</field>
+                                                                                                                                                                                              </shadow>
+                                                                                                                                                                                            </value>
+                                                                                                                                                                                            <next>
+                                                                                                                                                                                              <block type="variables_set" id="i1Sbh%!/aFg-?g[FP^;F">
+                                                                                                                                                                                                <field name="VAR" id="hh%:vqtczb:`R5N!X^sJ" variabletype="">Turtle_e_drn</field>
+                                                                                                                                                                                                <field name="NAME">=</field>
+                                                                                                                                                                                                <value name="varset">
+                                                                                                                                                                                                  <shadow type="textinline" id="}@A,S:!7PngAd]vi_f-b">
+                                                                                                                                                                                                    <field name="text">random.randint(1,40)</field>
+                                                                                                                                                                                                  </shadow>
+                                                                                                                                                                                                </value>
+                                                                                                                                                                                                <next>
+                                                                                                                                                                                                  <block type="directions" id="OlO+8_fj,8r:]RMO:SlR">
+                                                                                                                                                                                                    <field name="turtle" id="VXoIlV6bc@pC$/@l6W@v" variabletype="">Turtle_a</field>
+                                                                                                                                                                                                    <field name="options">forward</field>
+                                                                                                                                                                                                    <value name="text">
+                                                                                                                                                                                                      <shadow type="textinline" id="3(n54W$;3YU|c*w|]IAh">
+                                                                                                                                                                                                        <field name="text"></field>
+                                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                                      <block type="variables_get" id="_WIOOp_ke_L,19T~+=@s">
+                                                                                                                                                                                                        <field name="VAR" id="c7EbP}b8?{VEiHG:zI/v" variabletype="">Turtle_a_drn</field>
+                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                    <next>
+                                                                                                                                                                                                      <block type="directions" id="M]nL=N-Zfy$,%CO}%8}x">
+                                                                                                                                                                                                        <field name="turtle" id="yE+nksZkT^6$H!WP@{p3" variabletype="">Turtle_b</field>
+                                                                                                                                                                                                        <field name="options">forward</field>
+                                                                                                                                                                                                        <value name="text">
+                                                                                                                                                                                                          <shadow type="textinline" id="3(n54W$;3YU|c*w|]IAh">
+                                                                                                                                                                                                            <field name="text"></field>
+                                                                                                                                                                                                          </shadow>
+                                                                                                                                                                                                          <block type="variables_get" id="U~/;YzjTlw[XL}^@UWLV">
+                                                                                                                                                                                                            <field name="VAR" id="OjHR)%aGf;F[^cPCXn#P" variabletype="">Turtle_b_drn</field>
+                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                        <next>
+                                                                                                                                                                                                          <block type="directions" id="~O+2+FyVZiUEk:o3o-SZ">
+                                                                                                                                                                                                            <field name="turtle" id="ov/LQmXA1/wL~:z0td5(" variabletype="">Turtle_c</field>
+                                                                                                                                                                                                            <field name="options">forward</field>
+                                                                                                                                                                                                            <value name="text">
+                                                                                                                                                                                                              <shadow type="textinline" id="3(n54W$;3YU|c*w|]IAh">
+                                                                                                                                                                                                                <field name="text"></field>
+                                                                                                                                                                                                              </shadow>
+                                                                                                                                                                                                              <block type="variables_get" id="H|6cXruloSTnU4~kVg$E">
+                                                                                                                                                                                                                <field name="VAR" id="5DCz5XPBUwA%Q$hcB!Cs" variabletype="">Turtle_c_drn</field>
+                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                            <next>
+                                                                                                                                                                                                              <block type="directions" id=".@ui^8/c,E=!=PUj,Mg5">
+                                                                                                                                                                                                                <field name="turtle" id="caS~Wxj5P?i%e!mg9sx0" variabletype="">Turtle_d</field>
+                                                                                                                                                                                                                <field name="options">forward</field>
+                                                                                                                                                                                                                <value name="text">
+                                                                                                                                                                                                                  <shadow type="textinline" id="3(n54W$;3YU|c*w|]IAh">
+                                                                                                                                                                                                                    <field name="text"></field>
+                                                                                                                                                                                                                  </shadow>
+                                                                                                                                                                                                                  <block type="variables_get" id="Uqqx7|E7Kyz@#40M{=/b">
+                                                                                                                                                                                                                    <field name="VAR" id="(@xAC.,d_Z5{p!Ce!`5S" variabletype="">Turtle_d_drn</field>
+                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                <next>
+                                                                                                                                                                                                                  <block type="directions" id="yS8#ed5#$TD0A(!?5,]w">
+                                                                                                                                                                                                                    <field name="turtle" id="liZNz83zCC`22YP!dB~t" variabletype="">Turtle_e</field>
+                                                                                                                                                                                                                    <field name="options">forward</field>
+                                                                                                                                                                                                                    <value name="text">
+                                                                                                                                                                                                                      <shadow type="textinline" id="3(n54W$;3YU|c*w|]IAh">
+                                                                                                                                                                                                                        <field name="text"></field>
+                                                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                                                      <block type="variables_get" id="jO7yEYl3_LNs4@Dfnr.,">
+                                                                                                                                                                                                                        <field name="VAR" id="hh%:vqtczb:`R5N!X^sJ" variabletype="">Turtle_e_drn</field>
+                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                    <next>
+                                                                                                                                                                                                                      <block type="variables_set" id="TTp`iN^ne2F`^=s%t1Lv">
+                                                                                                                                                                                                                        <field name="VAR" id="WfUdILp~U-wAk;]!@r+H" variabletype="">addk_a</field>
+                                                                                                                                                                                                                        <field name="NAME">+=</field>
+                                                                                                                                                                                                                        <value name="varset">
+                                                                                                                                                                                                                          <shadow type="textinline" id=":/bzqyri}]7/Q[.#?v/}">
+                                                                                                                                                                                                                            <field name="text"></field>
+                                                                                                                                                                                                                          </shadow>
+                                                                                                                                                                                                                          <block type="variables_get" id="*RVZsok6ZGLaFOFSih3S">
+                                                                                                                                                                                                                            <field name="VAR" id="c7EbP}b8?{VEiHG:zI/v" variabletype="">Turtle_a_drn</field>
+                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                        <next>
+                                                                                                                                                                                                                          <block type="variables_set" id="N:XwIAi3JC89MAm3Lx~U">
+                                                                                                                                                                                                                            <field name="VAR" id="IE}]dV5m6L.]A0#OX^?J" variabletype="">addk_b</field>
+                                                                                                                                                                                                                            <field name="NAME">+=</field>
+                                                                                                                                                                                                                            <value name="varset">
+                                                                                                                                                                                                                              <shadow type="textinline" id=":/bzqyri}]7/Q[.#?v/}">
+                                                                                                                                                                                                                                <field name="text"></field>
+                                                                                                                                                                                                                              </shadow>
+                                                                                                                                                                                                                              <block type="variables_get" id="`i;.W=ui9-[/*--P:6mq">
+                                                                                                                                                                                                                                <field name="VAR" id="OjHR)%aGf;F[^cPCXn#P" variabletype="">Turtle_b_drn</field>
+                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                                            <next>
+                                                                                                                                                                                                                              <block type="variables_set" id="QEAT3:QXFo=P5Mqu}e#0">
+                                                                                                                                                                                                                                <field name="VAR" id="A3u_d/=b^zUXPJY?0a)+" variabletype="">addk_c</field>
+                                                                                                                                                                                                                                <field name="NAME">+=</field>
+                                                                                                                                                                                                                                <value name="varset">
+                                                                                                                                                                                                                                  <shadow type="textinline" id=":/bzqyri}]7/Q[.#?v/}">
+                                                                                                                                                                                                                                    <field name="text"></field>
+                                                                                                                                                                                                                                  </shadow>
+                                                                                                                                                                                                                                  <block type="variables_get" id="JIrjw$9vYm3!6OZ*pVv)">
+                                                                                                                                                                                                                                    <field name="VAR" id="5DCz5XPBUwA%Q$hcB!Cs" variabletype="">Turtle_c_drn</field>
+                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                                <next>
+                                                                                                                                                                                                                                  <block type="variables_set" id="9wA/o0{Uub0xOk*kD{t2">
+                                                                                                                                                                                                                                    <field name="VAR" id="L]j4?sfFG9tK;oeW`|g%" variabletype="">addk_d</field>
+                                                                                                                                                                                                                                    <field name="NAME">+=</field>
+                                                                                                                                                                                                                                    <value name="varset">
+                                                                                                                                                                                                                                      <shadow type="textinline" id=":/bzqyri}]7/Q[.#?v/}">
+                                                                                                                                                                                                                                        <field name="text"></field>
+                                                                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                                                                      <block type="variables_get" id="sY~eHHN!@F1MGX{Vh@gZ">
+                                                                                                                                                                                                                                        <field name="VAR" id="(@xAC.,d_Z5{p!Ce!`5S" variabletype="">Turtle_d_drn</field>
+                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                    <next>
+                                                                                                                                                                                                                                      <block type="variables_set" id="_)y#Zz7-z`Z1p|AKisqG">
+                                                                                                                                                                                                                                        <field name="VAR" id="Zgto/=@*V1`*jis`m#r?" variabletype="">addk_e</field>
+                                                                                                                                                                                                                                        <field name="NAME">+=</field>
+                                                                                                                                                                                                                                        <value name="varset">
+                                                                                                                                                                                                                                          <shadow type="textinline" id=":/bzqyri}]7/Q[.#?v/}">
+                                                                                                                                                                                                                                            <field name="text"></field>
+                                                                                                                                                                                                                                          </shadow>
+                                                                                                                                                                                                                                          <block type="variables_get" id="Z8xp9+9.I!ijD)lW%2p@">
+                                                                                                                                                                                                                                            <field name="VAR" id="hh%:vqtczb:`R5N!X^sJ" variabletype="">Turtle_e_drn</field>
+                                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                                        <next>
+                                                                                                                                                                                                                                          <block type="webtypeanything" id="[|B.^(Zvw=%fYlAs?Tgz">
+                                                                                                                                                                                                                                            <value name="stuff">
+                                                                                                                                                                                                                                              <shadow type="textinline" id="z`mB]wfxbQ3Xuqz#kr_w">
+                                                                                                                                                                                                                                                <field name="text">print("Turtle a " + str(addk_a))</field>
+                                                                                                                                                                                                                                              </shadow>
+                                                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                                                            <next>
+                                                                                                                                                                                                                                              <block type="webtypeanything" id="5Li!8b(uMv7k=u@vu!*g">
+                                                                                                                                                                                                                                                <value name="stuff">
+                                                                                                                                                                                                                                                  <shadow type="textinline" id="cggbl%:YDgRl*nHzl-9:">
+                                                                                                                                                                                                                                                    <field name="text">print("Turtle b " + str(addk_b))</field>
+                                                                                                                                                                                                                                                  </shadow>
+                                                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                                                <next>
+                                                                                                                                                                                                                                                  <block type="webtypeanything" id="up9!f;PTd%qD2#k3N{nn">
+                                                                                                                                                                                                                                                    <value name="stuff">
+                                                                                                                                                                                                                                                      <shadow type="textinline" id="HkZ!xrpB;lba_[hPG#a0">
+                                                                                                                                                                                                                                                        <field name="text">print("Turtle c " + str(addk_c))</field>
+                                                                                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                                    <next>
+                                                                                                                                                                                                                                                      <block type="webtypeanything" id="B]/XBWkpVMtGnfeM-Q6]">
+                                                                                                                                                                                                                                                        <value name="stuff">
+                                                                                                                                                                                                                                                          <shadow type="textinline" id="2#xw`_l?z|M[0}Rv5zQ_">
+                                                                                                                                                                                                                                                            <field name="text">print("Turtle d" + str(addk_d))</field>
+                                                                                                                                                                                                                                                          </shadow>
+                                                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                                                        <next>
+                                                                                                                                                                                                                                                          <block type="webtypeanything" id="AN_YP?Ymr{YB$,4R||!!">
+                                                                                                                                                                                                                                                            <value name="stuff">
+                                                                                                                                                                                                                                                              <shadow type="textinline" id="JZI[=8,/6=G@GsYlPUEC">
+                                                                                                                                                                                                                                                                <field name="text">print("Turtle e" + str(addk_e))</field>
+                                                                                                                                                                                                                                                              </shadow>
+                                                                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                                                                            <next>
+                                                                                                                                                                                                                                                              <block type="webifinline" id=".1?bQ/bnr~oa1SlVlP.e">
+                                                                                                                                                                                                                                                                <value name="iftext">
+                                                                                                                                                                                                                                                                  <shadow type="textinline" id="wg|k^SN(s~mBzyyD#/S$">
+                                                                                                                                                                                                                                                                    <field name="text"></field>
+                                                                                                                                                                                                                                                                  </shadow>
+                                                                                                                                                                                                                                                                  <block type="webinternal" id="uplP,$j*.{-8t}eY:m^.">
+                                                                                                                                                                                                                                                                    <field name="choose">&gt;=</field>
+                                                                                                                                                                                                                                                                    <value name="first">
+                                                                                                                                                                                                                                                                      <shadow type="textinline" id="SE|X]K!)T2C%$y[]oIMF">
+                                                                                                                                                                                                                                                                        <field name="text">0</field>
+                                                                                                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                                                                                                      <block type="variables_get" id="P{T0EWpIql~RU/chdUbV">
+                                                                                                                                                                                                                                                                        <field name="VAR" id="WfUdILp~U-wAk;]!@r+H" variabletype="">addk_a</field>
+                                                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                                                    <value name="last">
+                                                                                                                                                                                                                                                                      <shadow type="textinline" id=";3W5^]F+wLr4s$SAq7w^">
+                                                                                                                                                                                                                                                                        <field name="text">450</field>
+                                                                                                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                                                                <statement name="ifstate">
+                                                                                                                                                                                                                                                                  <block type="goto" id="`91|,AJlM^zF-,%pMnC$">
+                                                                                                                                                                                                                                                                    <field name="turtle" id="VXoIlV6bc@pC$/@l6W@v" variabletype="">Turtle_a</field>
+                                                                                                                                                                                                                                                                    <value name="text">
+                                                                                                                                                                                                                                                                      <shadow type="textinline" id="N4Ff,69vqx/Ne;ld#M#e">
+                                                                                                                                                                                                                                                                        <field name="text">0,10</field>
+                                                                                                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                                                    <next>
+                                                                                                                                                                                                                                                                      <block type="webtypeanything" id="#A{CZ)J-c1P,,oZG!;T%">
+                                                                                                                                                                                                                                                                        <value name="stuff">
+                                                                                                                                                                                                                                                                          <shadow type="textinline" id=";FT?e{zJ-vs,p[pJ~2pt">
+                                                                                                                                                                                                                                                                            <field name="text">break   </field>
+                                                                                                                                                                                                                                                                          </shadow>
+                                                                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                                                    </next>
+                                                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                                                </statement>
+                                                                                                                                                                                                                                                                <next>
+                                                                                                                                                                                                                                                                  <block type="webelifinline" id="VmqweF32{I:}8Q-0s=v^">
+                                                                                                                                                                                                                                                                    <value name="iftext">
+                                                                                                                                                                                                                                                                      <shadow type="textinline" id="u#5uQh|,$=;~RlzFS=:S">
+                                                                                                                                                                                                                                                                        <field name="text">True</field>
+                                                                                                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                                                                                                      <block type="webinternal" id="Q4M;SJ)G3`k27_p(|ljo">
+                                                                                                                                                                                                                                                                        <field name="choose">&gt;=</field>
+                                                                                                                                                                                                                                                                        <value name="first">
+                                                                                                                                                                                                                                                                          <shadow type="textinline" id="SE|X]K!)T2C%$y[]oIMF">
+                                                                                                                                                                                                                                                                            <field name="text">0</field>
+                                                                                                                                                                                                                                                                          </shadow>
+                                                                                                                                                                                                                                                                          <block type="variables_get" id="J~[6s!OBbMjy_~sMcEC!">
+                                                                                                                                                                                                                                                                            <field name="VAR" id="IE}]dV5m6L.]A0#OX^?J" variabletype="">addk_b</field>
+                                                                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                                                                        <value name="last">
+                                                                                                                                                                                                                                                                          <shadow type="textinline" id=".Bmvn5o%_(aUYc$Mgtd+">
+                                                                                                                                                                                                                                                                            <field name="text">450</field>
+                                                                                                                                                                                                                                                                          </shadow>
+                                                                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                                                    <statement name="ifstate">
+                                                                                                                                                                                                                                                                      <block type="goto" id="KN/dZ]@=XRl2#*o*Y7bO">
+                                                                                                                                                                                                                                                                        <field name="turtle" id="yE+nksZkT^6$H!WP@{p3" variabletype="">Turtle_b</field>
+                                                                                                                                                                                                                                                                        <value name="text">
+                                                                                                                                                                                                                                                                          <shadow type="textinline" id="V5}^_G5VlpF7d!39rQRQ">
+                                                                                                                                                                                                                                                                            <field name="text">0,10</field>
+                                                                                                                                                                                                                                                                          </shadow>
+                                                                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                                                                        <next>
+                                                                                                                                                                                                                                                                          <block type="webtypeanything" id="-SMJvk;qsofOyby_^yEh">
+                                                                                                                                                                                                                                                                            <value name="stuff">
+                                                                                                                                                                                                                                                                              <shadow type="textinline" id="Y_V}[XEpi0];.CPYL3r[">
+                                                                                                                                                                                                                                                                                <field name="text">break   </field>
+                                                                                                                                                                                                                                                                              </shadow>
+                                                                                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                                                                        </next>
+                                                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                                                    </statement>
+                                                                                                                                                                                                                                                                    <next>
+                                                                                                                                                                                                                                                                      <block type="webelifinline" id="FK%TafCIw#y3y6B~(Cdw">
+                                                                                                                                                                                                                                                                        <value name="iftext">
+                                                                                                                                                                                                                                                                          <shadow type="textinline" id=";;=qH3=bfBZRnR@y_y0S">
+                                                                                                                                                                                                                                                                            <field name="text">True</field>
+                                                                                                                                                                                                                                                                          </shadow>
+                                                                                                                                                                                                                                                                          <block type="webinternal" id="^v-$@W5/ccH@,hv.c018">
+                                                                                                                                                                                                                                                                            <field name="choose">&gt;=</field>
+                                                                                                                                                                                                                                                                            <value name="first">
+                                                                                                                                                                                                                                                                              <shadow type="textinline" id="SE|X]K!)T2C%$y[]oIMF">
+                                                                                                                                                                                                                                                                                <field name="text">0</field>
+                                                                                                                                                                                                                                                                              </shadow>
+                                                                                                                                                                                                                                                                              <block type="variables_get" id="2b4xcuo@87{KNLMdx;d)">
+                                                                                                                                                                                                                                                                                <field name="VAR" id="A3u_d/=b^zUXPJY?0a)+" variabletype="">addk_c</field>
+                                                                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                                                                                            <value name="last">
+                                                                                                                                                                                                                                                                              <shadow type="textinline" id="UcWBp959Qxlg{L}lFhMA">
+                                                                                                                                                                                                                                                                                <field name="text">450</field>
+                                                                                                                                                                                                                                                                              </shadow>
+                                                                                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                                                                        <statement name="ifstate">
+                                                                                                                                                                                                                                                                          <block type="goto" id="yo^0Odu1;C]p(/Pc2=`G">
+                                                                                                                                                                                                                                                                            <field name="turtle" id="ov/LQmXA1/wL~:z0td5(" variabletype="">Turtle_c</field>
+                                                                                                                                                                                                                                                                            <value name="text">
+                                                                                                                                                                                                                                                                              <shadow type="textinline" id="O8|,XS(oR)q*@8LJr3C-">
+                                                                                                                                                                                                                                                                                <field name="text">0,10</field>
+                                                                                                                                                                                                                                                                              </shadow>
+                                                                                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                                                                                            <next>
+                                                                                                                                                                                                                                                                              <block type="webtypeanything" id="f0E2v0Ude]W}QeXy-]rA">
+                                                                                                                                                                                                                                                                                <value name="stuff">
+                                                                                                                                                                                                                                                                                  <shadow type="textinline" id="r|t3OG$.-4UWFy7DACSY">
+                                                                                                                                                                                                                                                                                    <field name="text">break   </field>
+                                                                                                                                                                                                                                                                                  </shadow>
+                                                                                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                                                                            </next>
+                                                                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                                                                        </statement>
+                                                                                                                                                                                                                                                                        <next>
+                                                                                                                                                                                                                                                                          <block type="webelifinline" id="Ji~dGl:H0:}T|{nYu!hU">
+                                                                                                                                                                                                                                                                            <value name="iftext">
+                                                                                                                                                                                                                                                                              <shadow type="textinline" id="c_zR/wI.uFw4]:$c{Lc@">
+                                                                                                                                                                                                                                                                                <field name="text">True</field>
+                                                                                                                                                                                                                                                                              </shadow>
+                                                                                                                                                                                                                                                                              <block type="webinternal" id=";O8ap9{?i3@EFoz%GCXN">
+                                                                                                                                                                                                                                                                                <field name="choose">&gt;=</field>
+                                                                                                                                                                                                                                                                                <value name="first">
+                                                                                                                                                                                                                                                                                  <shadow type="textinline" id="SE|X]K!)T2C%$y[]oIMF">
+                                                                                                                                                                                                                                                                                    <field name="text">0</field>
+                                                                                                                                                                                                                                                                                  </shadow>
+                                                                                                                                                                                                                                                                                  <block type="variables_get" id="s]G3xM}Yo1{K)Qv?NkNT">
+                                                                                                                                                                                                                                                                                    <field name="VAR" id="L]j4?sfFG9tK;oeW`|g%" variabletype="">addk_d</field>
+                                                                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                                                                                <value name="last">
+                                                                                                                                                                                                                                                                                  <shadow type="textinline" id="vOGo,gI.XUY@ZUvT$74d">
+                                                                                                                                                                                                                                                                                    <field name="text">450</field>
+                                                                                                                                                                                                                                                                                  </shadow>
+                                                                                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                                                                                            <statement name="ifstate">
+                                                                                                                                                                                                                                                                              <block type="goto" id="LhU]8)p25WmZG+1IYwuy">
+                                                                                                                                                                                                                                                                                <field name="turtle" id="caS~Wxj5P?i%e!mg9sx0" variabletype="">Turtle_d</field>
+                                                                                                                                                                                                                                                                                <value name="text">
+                                                                                                                                                                                                                                                                                  <shadow type="textinline" id="+|Z:5n$Lx^)6hc1YiKrP">
+                                                                                                                                                                                                                                                                                    <field name="text">0,10</field>
+                                                                                                                                                                                                                                                                                  </shadow>
+                                                                                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                                                                                <next>
+                                                                                                                                                                                                                                                                                  <block type="webtypeanything" id="%weJu1s6]PsG6Y+X?4O%">
+                                                                                                                                                                                                                                                                                    <value name="stuff">
+                                                                                                                                                                                                                                                                                      <shadow type="textinline" id="nHg0.o@EB2;F20dsZG|[">
+                                                                                                                                                                                                                                                                                        <field name="text">break   </field>
+                                                                                                                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                                                                </next>
+                                                                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                                                                            </statement>
+                                                                                                                                                                                                                                                                            <next>
+                                                                                                                                                                                                                                                                              <block type="webelifinline" id="64q;/|A@F2C5xy1^Mmw(">
+                                                                                                                                                                                                                                                                                <value name="iftext">
+                                                                                                                                                                                                                                                                                  <shadow type="textinline" id="6:88dj=zC^=34jd@)Oi]">
+                                                                                                                                                                                                                                                                                    <field name="text">True</field>
+                                                                                                                                                                                                                                                                                  </shadow>
+                                                                                                                                                                                                                                                                                  <block type="webinternal" id="j5r(g~Eesm1g2rR!=AOT">
+                                                                                                                                                                                                                                                                                    <field name="choose">&gt;=</field>
+                                                                                                                                                                                                                                                                                    <value name="first">
+                                                                                                                                                                                                                                                                                      <shadow type="textinline" id="SE|X]K!)T2C%$y[]oIMF">
+                                                                                                                                                                                                                                                                                        <field name="text">0</field>
+                                                                                                                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                                                                                                                      <block type="variables_get" id="/O%z_-pr:_h5/0G[Naod">
+                                                                                                                                                                                                                                                                                        <field name="VAR" id="Zgto/=@*V1`*jis`m#r?" variabletype="">addk_e</field>
+                                                                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                                                                    <value name="last">
+                                                                                                                                                                                                                                                                                      <shadow type="textinline" id="s1ZA^7M}6{##oEG8NrGB">
+                                                                                                                                                                                                                                                                                        <field name="text">450</field>
+                                                                                                                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                                                                                <statement name="ifstate">
+                                                                                                                                                                                                                                                                                  <block type="goto" id="mF^UPNG1]%!H1v6L_}GT">
+                                                                                                                                                                                                                                                                                    <field name="turtle" id="liZNz83zCC`22YP!dB~t" variabletype="">Turtle_e</field>
+                                                                                                                                                                                                                                                                                    <value name="text">
+                                                                                                                                                                                                                                                                                      <shadow type="textinline" id=".a6lKwIhrGKj~Ub)6xB4">
+                                                                                                                                                                                                                                                                                        <field name="text">0,10</field>
+                                                                                                                                                                                                                                                                                      </shadow>
+                                                                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                                                                    <next>
+                                                                                                                                                                                                                                                                                      <block type="webtypeanything" id="VPhi+zJSs9zaRD~L$?,#">
+                                                                                                                                                                                                                                                                                        <value name="stuff">
+                                                                                                                                                                                                                                                                                          <shadow type="textinline" id="97V|k:MWsuQXP/0ZS:]x">
+                                                                                                                                                                                                                                                                                            <field name="text">break   </field>
+                                                                                                                                                                                                                                                                                          </shadow>
+                                                                                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                                                                    </next>
+                                                                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                                                                </statement>
+                                                                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                                                                            </next>
+                                                                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                                                                        </next>
+                                                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                                                    </next>
+                                                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                                                </next>
+                                                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                                                            </next>
+                                                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                                                        </next>
+                                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                                    </next>
+                                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                                </next>
+                                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                                            </next>
+                                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                                        </next>
+                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                    </next>
+                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                </next>
+                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                            </next>
+                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                        </next>
+                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                    </next>
+                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                </next>
+                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                            </next>
+                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                        </next>
+                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                    </next>
+                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                </next>
+                                                                                                                                                                                              </block>
+                                                                                                                                                                                            </next>
+                                                                                                                                                                                          </block>
+                                                                                                                                                                                        </next>
+                                                                                                                                                                                      </block>
+                                                                                                                                                                                    </next>
+                                                                                                                                                                                  </block>
+                                                                                                                                                                                </next>
+                                                                                                                                                                              </block>
+                                                                                                                                                                            </statement>
+                                                                                                                                                                          </block>
+                                                                                                                                                                        </next>
+                                                                                                                                                                      </block>
+                                                                                                                                                                    </next>
+                                                                                                                                                                  </block>
+                                                                                                                                                                </next>
+                                                                                                                                                              </block>
+                                                                                                                                                            </next>
+                                                                                                                                                          </block>
+                                                                                                                                                        </next>
+                                                                                                                                                      </block>
+                                                                                                                                                    </next>
+                                                                                                                                                  </block>
+                                                                                                                                                </next>
+                                                                                                                                              </block>
+                                                                                                                                            </next>
+                                                                                                                                          </block>
+                                                                                                                                        </next>
+                                                                                                                                      </block>
+                                                                                                                                    </next>
+                                                                                                                                  </block>
+                                                                                                                                </next>
+                                                                                                                              </block>
+                                                                                                                            </next>
+                                                                                                                          </block>
+                                                                                                                        </next>
+                                                                                                                      </block>
+                                                                                                                    </next>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </next>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </next>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

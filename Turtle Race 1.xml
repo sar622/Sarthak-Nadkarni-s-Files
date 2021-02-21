@@ -1,0 +1,240 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="81XQ@sF8I|]/_D}Zjzu+">i</variable>
+    <variable type="" id="}$X$Xa#Vb;^Bl~h-dv@l">j</variable>
+    <variable type="" id="V){8{j=l+h#eZ@;S(xe4">k</variable>
+    <variable type="" id="UW378`{cTb|B$-WvR~sI">turtle</variable>
+    <variable type="" id="g7Q[E)gg4bg]+(qCC$8B">m</variable>
+    <variable type="" id="}wz4A8gTY2vihBNoErjU">var</variable>
+  </variables>
+  <block type="import_turtle" id="r8Daz#_:)4BxrGWC$z;5" x="108" y="43">
+    <next>
+      <block type="random" id="fU/l5kycn~vYBz1=*x=5">
+        <next>
+          <block type="turtle" id="FDl=to,2jEQPksPanjF1">
+            <field name="turtle" id="UW378`{cTb|B$-WvR~sI" variabletype="">turtle</field>
+            <next>
+              <block type="penud" id="W92Sr.ZyhOggtA!-h(R}">
+                <field name="turtle" id="UW378`{cTb|B$-WvR~sI" variabletype="">turtle</field>
+                <field name="options">up</field>
+                <next>
+                  <block type="goto" id="4q8cWVlQA,^d6A.l2F-2">
+                    <field name="turtle" id="UW378`{cTb|B$-WvR~sI" variabletype="">turtle</field>
+                    <value name="text">
+                      <shadow type="textinline" id="H?j7UM*;2hXtD4@FAs2i">
+                        <field name="text">-190,190</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="turtlespeed" id="x;zooT?p{KqxvuIApU{X">
+                        <field name="turtle" id="UW378`{cTb|B$-WvR~sI" variabletype="">turtle</field>
+                        <value name="text">
+                          <shadow type="textinline" id="a3J6PbQ.zO6J-h^fL^6#">
+                            <field name="text">10</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="webfor" id="Qz9W94hWWHV8dGUs$[gm">
+                            <value name="letter">
+                              <shadow type="textinline" id="*IX9MuAyK14uLk?{zW6V">
+                                <field name="text">step</field>
+                              </shadow>
+                            </value>
+                            <value name="no">
+                              <shadow type="textinline" id="Y]Qp[ZFFi9=p0X3Dl*w?">
+                                <field name="text">20</field>
+                              </shadow>
+                            </value>
+                            <statement name="DO">
+                              <block type="webtypeanything" id="C!IdB`%3lMwF,2)88Z^4">
+                                <value name="stuff">
+                                  <shadow type="textinline" id="LDjrIRnhJfPI[oW3$Szq">
+                                    <field name="text">turtle.write(step)</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="directions" id="CtHUZKkX[)$;waZv0[:m">
+                                    <field name="turtle" id="UW378`{cTb|B$-WvR~sI" variabletype="">turtle</field>
+                                    <field name="options">right</field>
+                                    <value name="text">
+                                      <shadow type="textinline" id="c1xKxvO2+[OG:7n.A_tS">
+                                        <field name="text">90</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="directions" id="SB5?RZ^WTPM;#v~E@,+L">
+                                        <field name="turtle" id="UW378`{cTb|B$-WvR~sI" variabletype="">turtle</field>
+                                        <field name="options">forward</field>
+                                        <value name="text">
+                                          <shadow type="textinline" id="fkFBaqZbr*)3r29W%aY1">
+                                            <field name="text">10</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="penud" id="CQ@QQa$|i54pc}mT;#W=">
+                                            <field name="turtle" id="UW378`{cTb|B$-WvR~sI" variabletype="">turtle</field>
+                                            <field name="options">down</field>
+                                            <next>
+                                              <block type="directions" id="e1~;M~NBm6q`IG~Zgn;r">
+                                                <field name="turtle" id="UW378`{cTb|B$-WvR~sI" variabletype="">turtle</field>
+                                                <field name="options">forward</field>
+                                                <value name="text">
+                                                  <shadow type="textinline" id="3u[1Lcw5s5xx:JOU[/a{">
+                                                    <field name="text">150</field>
+                                                  </shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="penud" id="(68p+-Nejayu8zlb|w0L">
+                                                    <field name="turtle" id="UW378`{cTb|B$-WvR~sI" variabletype="">turtle</field>
+                                                    <field name="options">up</field>
+                                                    <next>
+                                                      <block type="directions" id=",j.g~/){y{QH4xE9p4|e">
+                                                        <field name="turtle" id="UW378`{cTb|B$-WvR~sI" variabletype="">turtle</field>
+                                                        <field name="options">backward</field>
+                                                        <value name="text">
+                                                          <shadow type="textinline" id="tQ}GUv!Vm%sMzC]1~$;d">
+                                                            <field name="text">160</field>
+                                                          </shadow>
+                                                        </value>
+                                                        <next>
+                                                          <block type="directions" id="qNB)m]*|gA;Jih(U[O0q">
+                                                            <field name="turtle" id="UW378`{cTb|B$-WvR~sI" variabletype="">turtle</field>
+                                                            <field name="options">left</field>
+                                                            <value name="text">
+                                                              <shadow type="textinline" id="q8WB2ktf!X@?fz{1{}-M">
+                                                                <field name="text">90</field>
+                                                              </shadow>
+                                                            </value>
+                                                            <next>
+                                                              <block type="directions" id="ycyz)RUmG=dV@!5?Ri,|">
+                                                                <field name="turtle" id="UW378`{cTb|B$-WvR~sI" variabletype="">turtle</field>
+                                                                <field name="options">forward</field>
+                                                                <value name="text">
+                                                                  <shadow type="textinline" id="#~$6=Pe^IA;D)9i*]UXw">
+                                                                    <field name="text">20</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <next>
+                              <block type="turtle" id="e-mxeyeWC_NNg6Go@cU4">
+                                <field name="turtle" id="81XQ@sF8I|]/_D}Zjzu+" variabletype="">i</field>
+                                <next>
+                                  <block type="colour" id="qPFa-1k:bv$3O=UPqURV">
+                                    <field name="turtle" id="81XQ@sF8I|]/_D}Zjzu+" variabletype="">i</field>
+                                    <value name="text">
+                                      <shadow type="textinline" id="g|Mi,-i[H!*mY|oAwo8n">
+                                        <field name="text">"red"</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="turtleshape" id="x?-ChQsFN$=EU[3)+j@y">
+                                        <field name="turtle" id="81XQ@sF8I|]/_D}Zjzu+" variabletype="">i</field>
+                                        <value name="text">
+                                          <shadow type="stringinline" id="Kqo6w/*:mM9C}#6Jt1oM">
+                                            <field name="text">turtle</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="penud" id="4Ax6z5q@v:LbZ!rYb0}p">
+                                            <field name="turtle" id="81XQ@sF8I|]/_D}Zjzu+" variabletype="">i</field>
+                                            <field name="options">up</field>
+                                            <next>
+                                              <block type="goto" id="9YMe$cBa0VfGgUf5NHJ9">
+                                                <field name="turtle" id="81XQ@sF8I|]/_D}Zjzu+" variabletype="">i</field>
+                                                <value name="text">
+                                                  <shadow type="textinline" id="L6a{B~ovA.bLELB58YTw">
+                                                    <field name="text">-190,100</field>
+                                                  </shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="penud" id="6ahxq9ho)c6Tc;^bSI=o">
+                                                    <field name="turtle" id="81XQ@sF8I|]/_D}Zjzu+" variabletype="">i</field>
+                                                    <field name="options">down</field>
+                                                    <next>
+                                                      <block type="webfor" id=";:ze4vmTNX#1Jg?/pH^:">
+                                                        <value name="letter">
+                                                          <shadow type="textinline" id="g$zed/hKnJ}sc~,Y]IlE">
+                                                            <field name="text">turtle</field>
+                                                          </shadow>
+                                                        </value>
+                                                        <value name="no">
+                                                          <shadow type="textinline" id="R!VF,q)02d^4q.s,Z:F3">
+                                                            <field name="text">100</field>
+                                                          </shadow>
+                                                        </value>
+                                                        <statement name="DO">
+                                                          <block type="variables_set" id="o?8lI!nIbPQF@Huic:Zo">
+                                                            <field name="VAR" id="}$X$Xa#Vb;^Bl~h-dv@l" variabletype="">j</field>
+                                                            <field name="NAME">=</field>
+                                                            <value name="varset">
+                                                              <shadow type="textinline" id="*VJj1xV{9fvuBHU1I)j]">
+                                                                <field name="text">0</field>
+                                                              </shadow>
+                                                            </value>
+                                                            <next>
+                                                              <block type="directions" id="@P*[K:C3i-tGJT+!O/sP">
+                                                                <field name="turtle" id="81XQ@sF8I|]/_D}Zjzu+" variabletype="">i</field>
+                                                                <field name="options">forward</field>
+                                                                <value name="text">
+                                                                  <shadow type="textinline" id="}=dfnP2u26:Kx{b.P[hX">
+                                                                    <field name="text">random.randint(1,40)</field>
+                                                                  </shadow>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="webprintnew" id="YkBP{oB{pwx~7xTh7,!X">
+                                                                    <value name="text">
+                                                                      <shadow type="textinline" id="=bTV!n80C_4~3A#6FT^K">
+                                                                        <field name="text">Variable</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </statement>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
