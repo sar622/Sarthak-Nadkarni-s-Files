@@ -1,1 +1,5 @@
-ref: refs/heads/Master-2
+0000000000000000000000000000000000000000 d9b366ccd320da9f3e4e78bf08fe43b90cc7b887 Sarthak Nadkarni <sarthaknadkarni777@gmail.com> 1592779624 -0700	commit (initial): Initial commit
+d9b366ccd320da9f3e4e78bf08fe43b90cc7b887 d9b366ccd320da9f3e4e78bf08fe43b90cc7b887 Sarthak Nadkarni <sarthaknadkarni777@gmail.com> 1592779650 -0700	checkout: moving from master to Master-2
+d9b366ccd320da9f3e4e78bf08fe43b90cc7b887 0000000000000000000000000000000000000000 Sarthak Nadkarni <sarthaknadkarni777@gmail.com> 1592780521 -0700	Reverting first commit
+0000000000000000000000000000000000000000 a7c07873baa66ec75f9685547b1ec2c771ac2db5 Sarthak Nadkarni <sarthaknadkarni777@gmail.com> 1592780546 -0700	commit (initial): Initial commit
+a7c07873baa66ec75f9685547b1ec2c771ac2db5 fea924d6640e7ab6280ec14d0bd4b4865e9af67c Sarthak Nadkarni <sarthaknadkarni777@gmail.com> 1592783736 -0700	commit: Create Portfolio Self-Assessment - Socials (Sarthak Evaluation).docx
